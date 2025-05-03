@@ -67,6 +67,11 @@ namespace WinFormsApp1
                         consultarEmpleadoDataGridView.DataSource = new List<EmpleadosType> { response.empleadoOut };
                     }
 
+                    else
+                    {
+                        MessageBox.Show("No existe ningún empleado con NIF/NIE: " + nif, "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+
                 }
             }
             catch (Exception ex)
