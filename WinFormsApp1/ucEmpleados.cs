@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsApp1.utils;
-using EmpleadosSoapServiceReference;
+using SOAPMTISPrac3Ex1;
 
 namespace WinFormsApp1
 {

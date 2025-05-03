@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IO.Swagger.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0cdc697a0cde97f4ffe75053766a18469670f13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf2fd1e2eb63c2061a04172f56752c760a98788c")]
 [assembly: System.Reflection.AssemblyProductAttribute("IO.Swagger.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IO.Swagger.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
