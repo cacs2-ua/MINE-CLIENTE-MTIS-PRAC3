@@ -35,9 +35,10 @@
             menuStrip1 = new MenuStrip();
             EmpleadosToolStripMenuItem = new ToolStripMenuItem();
             nivelesToolStripMenuItem = new ToolStripMenuItem();
+            procesoNENVToolStripMenuItem = new ToolStripMenuItem();
             panelContenedor = new Panel();
             label1 = new Label();
-            procesoNENVToolStripMenuItem = new ToolStripMenuItem();
+            procesoNUNVTSToolStripMenuItem = new ToolStripMenuItem();
             contextMenuStrip2.SuspendLayout();
             menuStrip1.SuspendLayout();
             panelContenedor.SuspendLayout();
@@ -65,7 +66,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { EmpleadosToolStripMenuItem, nivelesToolStripMenuItem, procesoNENVToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { EmpleadosToolStripMenuItem, nivelesToolStripMenuItem, procesoNENVToolStripMenuItem, procesoNUNVTSToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1902, 28);
@@ -85,6 +86,13 @@
             nivelesToolStripMenuItem.Size = new Size(71, 24);
             nivelesToolStripMenuItem.Text = "Niveles";
             nivelesToolStripMenuItem.Click += nivelesToolStripMenuItem_Click;
+            // 
+            // procesoNENVToolStripMenuItem
+            // 
+            procesoNENVToolStripMenuItem.Name = "procesoNENVToolStripMenuItem";
+            procesoNENVToolStripMenuItem.Size = new Size(115, 24);
+            procesoNENVToolStripMenuItem.Text = "procesoNENV";
+            procesoNENVToolStripMenuItem.Click += procesoNENVToolStripMenuItem_Click;
             // 
             // panelContenedor
             // 
@@ -107,12 +115,12 @@
             label1.Text = "MTIS Práctica 3";
             label1.Click += label1_Click_2;
             // 
-            // procesoNENVToolStripMenuItem
+            // procesoNUNVTSToolStripMenuItem
             // 
-            procesoNENVToolStripMenuItem.Name = "procesoNENVToolStripMenuItem";
-            procesoNENVToolStripMenuItem.Size = new Size(115, 24);
-            procesoNENVToolStripMenuItem.Text = "procesoNENV";
-            procesoNENVToolStripMenuItem.Click += procesoNENVToolStripMenuItem_Click;
+            procesoNUNVTSToolStripMenuItem.Name = "procesoNUNVTSToolStripMenuItem";
+            procesoNUNVTSToolStripMenuItem.Size = new Size(133, 24);
+            procesoNUNVTSToolStripMenuItem.Text = "procesoNUNVTS";
+            procesoNUNVTSToolStripMenuItem.Click += procesoNUNVTSToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -150,5 +158,6 @@
         private ToolStripMenuItem notificacionesToolStripMenuItem;
         private ToolStripMenuItem validacionesToolStripMenuItem;
         private ToolStripMenuItem procesoNENVToolStripMenuItem;
+        private ToolStripMenuItem procesoNUNVTSToolStripMenuItem;
     }
 }

@@ -169,15 +169,24 @@ namespace WinFormsApp1
 
         private void procesoNENVToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            {
-                panelContenedor.Controls.Clear();
+            panelContenedor.Controls.Clear();
 
-                ucProcesoNENV uc = new ucProcesoNENV();
-                uc.Width = panelContenedor.ClientSize.Width;
-                uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-                panelContenedor.Controls.Add(uc);
+            ucProcesoNENV uc = new ucProcesoNENV();
+            uc.Width = panelContenedor.ClientSize.Width;
+            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+            panelContenedor.Controls.Add(uc);
 
-            }
+        }
+
+        private void procesoNUNVTSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelContenedor.Controls.Clear();
+
+            ucProcesoNUNVTS uc = new ucProcesoNUNVTS();
+            uc.Width = panelContenedor.ClientSize.Width;
+            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+            panelContenedor.Controls.Add(uc);
+
         }
     }
 }

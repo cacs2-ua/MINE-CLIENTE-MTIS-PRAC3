@@ -22,8 +22,8 @@ namespace WinFormsApp1
         {
             try
             {
-                string WSKey = Utils.obtenerSoapKey();     
-                string WSRestKey = Utils.obtenerRestKey(); 
+                string WSKey = Utils.obtenerSoapKey();
+                string WSRestKey = Utils.obtenerRestKey();
 
                 using (var client = new HttpClient())
                 {
@@ -45,10 +45,14 @@ namespace WinFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al ejecutar el flujo de MuleSoft: " + ex.Message,
+                MessageBox.Show("Error al ejecutar el flujo: " + ex.Message,
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
+        private void ucProcesoNENV_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

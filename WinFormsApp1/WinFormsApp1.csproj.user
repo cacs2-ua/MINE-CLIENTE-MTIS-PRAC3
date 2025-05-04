@@ -13,5 +13,8 @@
     <Compile Update="ucProcesoNENV.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="ucProcesoNUNVTS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
