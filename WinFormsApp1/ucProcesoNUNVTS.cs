@@ -47,26 +47,20 @@ namespace WinFormsApp1
                 {
                     string url = $"http://localhost:9094/procesoNUNVTS?email={Uri.EscapeDataString(email)}";
 
-                    // Crear contenido con Content-Type correcto
                     var content = new StringContent("{}", Encoding.UTF8, "application/json");
 
-                    // Crear la solicitud
                     var request = new HttpRequestMessage(HttpMethod.Post, url)
                     {
                         Content = content
                     };
 
-                    // Agregar solo los headers personalizados aquí
                     request.Headers.Add("SoapWSKey", SoapWSKey);
                     request.Headers.Add("RestWSKey", RestWSKey);
 
-                    // Enviar la petición
                     HttpResponseMessage response = await client.SendAsync(request);
 
-                    // Leer la respuesta
                     string result = await response.Content.ReadAsStringAsync();
 
-                    // Mostrar la respuesta
                     MessageBox.Show($"Código: {(int)response.StatusCode}\nRespuesta: El flujo se ha completado con éxito",
                         "Resultado del flujo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
