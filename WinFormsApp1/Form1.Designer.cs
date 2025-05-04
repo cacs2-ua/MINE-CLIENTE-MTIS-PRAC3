@@ -103,7 +103,7 @@
             label1.Name = "label1";
             label1.Size = new Size(267, 46);
             label1.TabIndex = 0;
-            label1.Text = "MTIS Práctica 1";
+            label1.Text = "MTIS Práctica 3";
             label1.Click += label1_Click_2;
             // 
             // Form1
