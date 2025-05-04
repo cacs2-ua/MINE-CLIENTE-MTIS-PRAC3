@@ -7,25 +7,7 @@
     <Compile Update="ucEmpleados.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="ucControlAccesos.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucControlPresencia.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="ucNiveles.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucValidaciones.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucSalas.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucDispositivos.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucNotificaciones.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

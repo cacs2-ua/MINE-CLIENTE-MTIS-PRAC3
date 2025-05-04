@@ -9,6 +9,45 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Connected Services\ControlPresenciaSoapServiceReference\**" />
+    <Compile Remove="Connected Services\EmpleadosSoapServiceReference\**" />
+    <Compile Remove="Connected Services\ServiceReference1\**" />
+    <Compile Remove="Connected Services\ValidacionesSoapServiceReference\**" />
+    <EmbeddedResource Remove="Connected Services\ControlPresenciaSoapServiceReference\**" />
+    <EmbeddedResource Remove="Connected Services\EmpleadosSoapServiceReference\**" />
+    <EmbeddedResource Remove="Connected Services\ServiceReference1\**" />
+    <EmbeddedResource Remove="Connected Services\ValidacionesSoapServiceReference\**" />
+    <None Remove="Connected Services\ControlPresenciaSoapServiceReference\**" />
+    <None Remove="Connected Services\EmpleadosSoapServiceReference\**" />
+    <None Remove="Connected Services\ServiceReference1\**" />
+    <None Remove="Connected Services\ValidacionesSoapServiceReference\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ucControlAccesos.cs" />
+    <Compile Remove="ucControlAccesos.Designer.cs" />
+    <Compile Remove="ucControlPresencia.cs" />
+    <Compile Remove="ucControlPresencia.Designer.cs" />
+    <Compile Remove="ucDispositivos.cs" />
+    <Compile Remove="ucDispositivos.Designer.cs" />
+    <Compile Remove="ucNotificaciones.cs" />
+    <Compile Remove="ucNotificaciones.Designer.cs" />
+    <Compile Remove="ucSalas.cs" />
+    <Compile Remove="ucSalas.Designer.cs" />
+    <Compile Remove="ucValidaciones.cs" />
+    <Compile Remove="ucValidaciones.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="ucControlAccesos.resx" />
+    <EmbeddedResource Remove="ucControlPresencia.resx" />
+    <EmbeddedResource Remove="ucDispositivos.resx" />
+    <EmbeddedResource Remove="ucNotificaciones.resx" />
+    <EmbeddedResource Remove="ucSalas.resx" />
+    <EmbeddedResource Remove="ucValidaciones.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.ServiceModel.Duplex" Version="6.0.*" />
     <PackageReference Include="System.ServiceModel.Federation" Version="6.0.*" />
     <PackageReference Include="System.ServiceModel.Http" Version="6.0.*" />

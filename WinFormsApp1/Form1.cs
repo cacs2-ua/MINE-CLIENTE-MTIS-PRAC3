@@ -1,4 +1,3 @@
-using ServiceReference1;
 using System.Net;
 using System.Text;
 
@@ -142,45 +141,7 @@ namespace WinFormsApp1
 
         }
 
-        private void ControlAccesosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            // Limpia el contenido anterior del panel
-            panelContenedor.Controls.Clear();
 
-            // Crea una nueva instancia del UserControl correspondiente
-            ucControlAccesos uc = new ucControlAccesos();
-
-            // Ajusta el ancho del UserControl para que sea exactamente el mismo que el del panel
-            uc.Width = panelContenedor.ClientSize.Width;
-
-            // Opcional: anclar el control a la esquina superior izquierda para que se mantenga en su posici�n
-            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-
-            // Agrega el UserControl al panel
-            panelContenedor.Controls.Add(uc);
-
-        }
-
-        private void ControlPresenciaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panelContenedor.Controls.Clear();
-
-            ucControlPresencia uc = new ucControlPresencia();
-            uc.Width = panelContenedor.ClientSize.Width;
-            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-            panelContenedor.Controls.Add(uc);
-        }
-
-        private void salasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panelContenedor.Controls.Clear();
-
-            ucSalas uc = new ucSalas();
-            uc.Width = panelContenedor.ClientSize.Width;
-            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-            panelContenedor.Controls.Add(uc);
-
-        }
 
         private void nivelesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -193,26 +154,8 @@ namespace WinFormsApp1
 
         }
 
-        private void dispositivosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panelContenedor.Controls.Clear();
 
-            ucDispositivos uc = new ucDispositivos();
-            uc.Width = panelContenedor.ClientSize.Width;
-            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-            panelContenedor.Controls.Add(uc);
-
-        }
-
-        private void notificacionesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panelContenedor.Controls.Clear();
-
-            ucNotificaciones uc = new ucNotificaciones();
-            uc.Width = panelContenedor.ClientSize.Width;
-            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-            panelContenedor.Controls.Add(uc);
-        }
+        
 
         private void label1_Click_2(object sender, EventArgs e)
         {
@@ -224,15 +167,5 @@ namespace WinFormsApp1
 
         }
 
-        private void validacionesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panelContenedor.Controls.Clear();
-
-            ucValidaciones uc = new ucValidaciones();
-            uc.Width = panelContenedor.ClientSize.Width;
-            uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-            panelContenedor.Controls.Add(uc);
-
-        }
     }
 }

@@ -300,14 +300,8 @@ C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\bin\Debug\net8.0-windows\IO.Swagger.pdb
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
-C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucControlAccesos.resources
-C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucControlPresencia.resources
-C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucDispositivos.resources
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucEmpleados.resources
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucNiveles.resources
-C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucNotificaciones.resources
-C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucSalas.resources
-C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucValidaciones.resources
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache

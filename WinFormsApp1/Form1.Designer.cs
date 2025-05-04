@@ -34,13 +34,7 @@
             aaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1 = new MenuStrip();
             EmpleadosToolStripMenuItem = new ToolStripMenuItem();
-            ControlAccesosToolStripMenuItem = new ToolStripMenuItem();
-            ControlPresenciaToolStripMenuItem = new ToolStripMenuItem();
-            salasToolStripMenuItem = new ToolStripMenuItem();
             nivelesToolStripMenuItem = new ToolStripMenuItem();
-            dispositivosToolStripMenuItem = new ToolStripMenuItem();
-            notificacionesToolStripMenuItem = new ToolStripMenuItem();
-            validacionesToolStripMenuItem = new ToolStripMenuItem();
             panelContenedor = new Panel();
             label1 = new Label();
             contextMenuStrip2.SuspendLayout();
@@ -70,7 +64,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { EmpleadosToolStripMenuItem, ControlAccesosToolStripMenuItem, ControlPresenciaToolStripMenuItem, salasToolStripMenuItem, nivelesToolStripMenuItem, dispositivosToolStripMenuItem, notificacionesToolStripMenuItem, validacionesToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { EmpleadosToolStripMenuItem, nivelesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1902, 28);
@@ -84,54 +78,12 @@
             EmpleadosToolStripMenuItem.Text = "Empleados";
             EmpleadosToolStripMenuItem.Click += EmpleadosToolStripMenuItem_Click;
             // 
-            // ControlAccesosToolStripMenuItem
-            // 
-            ControlAccesosToolStripMenuItem.Name = "ControlAccesosToolStripMenuItem";
-            ControlAccesosToolStripMenuItem.Size = new Size(123, 24);
-            ControlAccesosToolStripMenuItem.Text = " ControlAcceso";
-            ControlAccesosToolStripMenuItem.Click += ControlAccesosToolStripMenuItem_Click;
-            // 
-            // ControlPresenciaToolStripMenuItem
-            // 
-            ControlPresenciaToolStripMenuItem.Name = "ControlPresenciaToolStripMenuItem";
-            ControlPresenciaToolStripMenuItem.Size = new Size(134, 24);
-            ControlPresenciaToolStripMenuItem.Text = "ControlPresencia";
-            ControlPresenciaToolStripMenuItem.Click += ControlPresenciaToolStripMenuItem_Click;
-            // 
-            // salasToolStripMenuItem
-            // 
-            salasToolStripMenuItem.Name = "salasToolStripMenuItem";
-            salasToolStripMenuItem.Size = new Size(57, 24);
-            salasToolStripMenuItem.Text = "Salas";
-            salasToolStripMenuItem.Click += salasToolStripMenuItem_Click;
-            // 
             // nivelesToolStripMenuItem
             // 
             nivelesToolStripMenuItem.Name = "nivelesToolStripMenuItem";
             nivelesToolStripMenuItem.Size = new Size(71, 24);
             nivelesToolStripMenuItem.Text = "Niveles";
             nivelesToolStripMenuItem.Click += nivelesToolStripMenuItem_Click;
-            // 
-            // dispositivosToolStripMenuItem
-            // 
-            dispositivosToolStripMenuItem.Name = "dispositivosToolStripMenuItem";
-            dispositivosToolStripMenuItem.Size = new Size(103, 24);
-            dispositivosToolStripMenuItem.Text = "Dispositivos";
-            dispositivosToolStripMenuItem.Click += dispositivosToolStripMenuItem_Click;
-            // 
-            // notificacionesToolStripMenuItem
-            // 
-            notificacionesToolStripMenuItem.Name = "notificacionesToolStripMenuItem";
-            notificacionesToolStripMenuItem.Size = new Size(118, 24);
-            notificacionesToolStripMenuItem.Text = "Notificaciones";
-            notificacionesToolStripMenuItem.Click += notificacionesToolStripMenuItem_Click;
-            // 
-            // validacionesToolStripMenuItem
-            // 
-            validacionesToolStripMenuItem.Name = "validacionesToolStripMenuItem";
-            validacionesToolStripMenuItem.Size = new Size(106, 24);
-            validacionesToolStripMenuItem.Text = "Validaciones";
-            validacionesToolStripMenuItem.Click += validacionesToolStripMenuItem_Click;
             // 
             // panelContenedor
             // 
