@@ -59,7 +59,7 @@ namespace WinFormsApp1
                 IO.Swagger.Model.Nivel nivelRegistrado = await nivelesApi.NuevoNivelAsync(nuevoNivel, WSKey);
 
                 // Paso 6: Mostrar un mensaje de éxito con el ID del nivel registrado.
-                MessageBox.Show("Nivel registrado exitosamente. ID: " + nivelRegistrado.Id,
+                MessageBox.Show("Nivel registrado exitosamente. nivel: " + nivelValue,
                     "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -235,6 +235,11 @@ namespace WinFormsApp1
                 MessageBox.Show("Error al borrar el nivel: " + ex.Message,
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+        }
+
+        private void consultarNivelTextBox_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -125,6 +125,7 @@
             consultarNivelTextBox.Name = "consultarNivelTextBox";
             consultarNivelTextBox.Size = new Size(370, 27);
             consultarNivelTextBox.TabIndex = 7;
+            consultarNivelTextBox.TextChanged += consultarNivelTextBox_TextChanged;
             // 
             // label2
             // 
