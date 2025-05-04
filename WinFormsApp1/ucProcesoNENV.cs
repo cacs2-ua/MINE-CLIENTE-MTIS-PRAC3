@@ -22,29 +22,23 @@ namespace WinFormsApp1
         {
             try
             {
-                string WSKey = Utils.obtenerSoapKey();     // Valor: "soap-mtis-prac1"
-                string WSRestKey = Utils.obtenerRestKey(); // Valor: "rest-mtis-prac1"
+                string WSKey = Utils.obtenerSoapKey();     
+                string WSRestKey = Utils.obtenerRestKey(); 
 
                 using (var client = new HttpClient())
                 {
-                    // Establecer URL del flujo de MuleSoft
                     var url = "http://localhost:9093/procesoNENV";
 
-                    // Crear el contenido de la petición (puede estar vacío si no se requiere body)
                     var contenido = new StringContent("{}", Encoding.UTF8, "application/json");
 
-                    // Agregar cabeceras
                     contenido.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
                     client.DefaultRequestHeaders.Add("WSKey", WSKey);
                     client.DefaultRequestHeaders.Add("WSRestKey", WSRestKey);
 
-                    // Enviar la petición POST
                     HttpResponseMessage response = await client.PostAsync(url, contenido);
 
-                    // Leer la respuesta
                     string responseBody = await response.Content.ReadAsStringAsync();
 
-                    // Mostrar resultado
                     MessageBox.Show($"Código: {(int)response.StatusCode}\nRespuesta: {responseBody}",
                         "Resultado del flujo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
