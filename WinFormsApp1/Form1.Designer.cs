@@ -37,6 +37,7 @@
             nivelesToolStripMenuItem = new ToolStripMenuItem();
             panelContenedor = new Panel();
             label1 = new Label();
+            procesoNENVToolStripMenuItem = new ToolStripMenuItem();
             contextMenuStrip2.SuspendLayout();
             menuStrip1.SuspendLayout();
             panelContenedor.SuspendLayout();
@@ -64,7 +65,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { EmpleadosToolStripMenuItem, nivelesToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { EmpleadosToolStripMenuItem, nivelesToolStripMenuItem, procesoNENVToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1902, 28);
@@ -106,6 +107,13 @@
             label1.Text = "MTIS Práctica 3";
             label1.Click += label1_Click_2;
             // 
+            // procesoNENVToolStripMenuItem
+            // 
+            procesoNENVToolStripMenuItem.Name = "procesoNENVToolStripMenuItem";
+            procesoNENVToolStripMenuItem.Size = new Size(115, 24);
+            procesoNENVToolStripMenuItem.Text = "procesoNENV";
+            procesoNENVToolStripMenuItem.Click += procesoNENVToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -141,5 +149,6 @@
         private ToolStripMenuItem dispositivosToolStripMenuItem;
         private ToolStripMenuItem notificacionesToolStripMenuItem;
         private ToolStripMenuItem validacionesToolStripMenuItem;
+        private ToolStripMenuItem procesoNENVToolStripMenuItem;
     }
 }

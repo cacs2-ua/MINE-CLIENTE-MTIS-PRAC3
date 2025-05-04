@@ -314,3 +314,4 @@ C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practicas\Practica 3\CODIGO-PRAC1\MINE\MTIS-Prac3-Proyecto-Cliente\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucProcesoNENV.resources

@@ -155,7 +155,7 @@ namespace WinFormsApp1
         }
 
 
-        
+
 
         private void label1_Click_2(object sender, EventArgs e)
         {
@@ -167,5 +167,17 @@ namespace WinFormsApp1
 
         }
 
+        private void procesoNENVToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            {
+                panelContenedor.Controls.Clear();
+
+                ucProcesoNENV uc = new ucProcesoNENV();
+                uc.Width = panelContenedor.ClientSize.Width;
+                uc.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+                panelContenedor.Controls.Add(uc);
+
+            }
+        }
     }
 }
